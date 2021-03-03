@@ -1,0 +1,23 @@
+:root{
+  box-sizing: border-box;
+}
+.cardwrapper{
+  width:10vw;
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1vh 1vh;
+  padding: 1vh 1vh;
+  background: rgba(173, 210, 127, 0.3);
+}
+.cardwrapper a{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic; 
+  color: red;
+}
+.cardwrapper a:hover{
+  text-decoration: wavy underline;
+}
